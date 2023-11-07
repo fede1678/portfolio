@@ -1,5 +1,4 @@
 import { useState } from "react";
-
 import {
   FaBars,
   FaTimes,
@@ -26,33 +25,53 @@ const Navbar = () => {
       {/* menu */}
 
       <ul className="hidden md:flex">
-        <li>
-          {" "}
-          <Link to="home" smooth={true} duration={500}>
+        <li className="nav-item">
+          <Link
+            to="home"
+            smooth={true}
+            duration={500}
+            className="transition-color hover:text-pink-600"
+          >
             Home
           </Link>
         </li>
-        <li>
-          {" "}
-          <Link to="about" smooth={true} duration={500}>
+        <li className="nav-item">
+          <Link
+            to="about"
+            smooth={true}
+            duration={500}
+            className="transition-color hover:text-pink-600"
+          >
             About
           </Link>
         </li>
-        <li>
-          {" "}
-          <Link to="skills" smooth={true} duration={500}>
+        <li className="nav-item">
+          <Link
+            to="skills"
+            smooth={true}
+            duration={500}
+            className="transition-color hover:text-pink-600"
+          >
             Skills
           </Link>
         </li>
-        <li>
-          {" "}
-          <Link to="work" smooth={true} duration={500}>
+        <li className="nav-item">
+          <Link
+            to="work"
+            smooth={true}
+            duration={500}
+            className="transition-color hover:text-pink-600"
+          >
             Work
           </Link>
         </li>
-        <li>
-          {" "}
-          <Link to="contact" smooth={true} duration={500}>
+        <li className="nav-item">
+          <Link
+            to="contact"
+            smooth={true}
+            duration={500}
+            className="transition-color hover:text-pink-600"
+          >
             Contact
           </Link>
         </li>
@@ -135,7 +154,7 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300  bg-[#565f69]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="/"
+              href="https://drive.google.com/file/d/14xaZb6sjwVBnAjv8TbRq2DVofJrhV3Kd/view?usp=drive_link"
             >
               Resume <BsFillPersonLinesFill size={30} />
             </a>
