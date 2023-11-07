@@ -32,7 +32,7 @@ export const data = [
     name: "React JS Application",
     image: WorkIm3,
     github: "https://github.com/fede1678/portfolio",
-    live: "https://jolly-malabi-de81f3.netlify.app/",
+    live: "https://portafolio-website-fp.netlify.app/",
   },
   {
     id: 5,

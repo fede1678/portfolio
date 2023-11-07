@@ -32,7 +32,7 @@ const Navbar = () => {
             duration={500}
             className="transition-color hover:text-pink-600"
           >
-            Home
+            Inicio
           </Link>
         </li>
         <li className="nav-item">
@@ -42,7 +42,7 @@ const Navbar = () => {
             duration={500}
             className="transition-color hover:text-pink-600"
           >
-            About
+            Acerca
           </Link>
         </li>
         <li className="nav-item">
@@ -52,7 +52,7 @@ const Navbar = () => {
             duration={500}
             className="transition-color hover:text-pink-600"
           >
-            Skills
+            Habilidades
           </Link>
         </li>
         <li className="nav-item">
@@ -62,7 +62,7 @@ const Navbar = () => {
             duration={500}
             className="transition-color hover:text-pink-600"
           >
-            Work
+            Portafolio
           </Link>
         </li>
         <li className="nav-item">
@@ -72,7 +72,7 @@ const Navbar = () => {
             duration={500}
             className="transition-color hover:text-pink-600"
           >
-            Contact
+            Contacto
           </Link>
         </li>
       </ul>
@@ -93,31 +93,31 @@ const Navbar = () => {
         <li>
           {" "}
           <Link onClick={handleClick} to="home" smooth={true} duration={500}>
-            Home
+            Inicio
           </Link>
         </li>
         <li>
           {" "}
           <Link onClick={handleClick} to="about" smooth={true} duration={500}>
-            About
+            Acerca
           </Link>
         </li>
         <li>
           {" "}
           <Link onClick={handleClick} to="skills" smooth={true} duration={500}>
-            Skills
+            Habilidades
           </Link>
         </li>
         <li>
           {" "}
           <Link onClick={handleClick} to="work" smooth={true} duration={500}>
-            Work
+            Portafolio
           </Link>
         </li>
         <li>
           {" "}
           <Link onClick={handleClick} to="contact" smooth={true} duration={500}>
-            Contact
+            Contacto
           </Link>
         </li>
       </ul>
