@@ -1,8 +1,8 @@
-import WorkIm1 from "../assets/projects/workImg.png";
+import WorkIm1 from "../assets/projects/landing-page.png";
 import WorkIm2 from "../assets/projects/pelis.png";
 import WorkIm3 from "../assets/projects/portafolio.png";
 import WorkIm4 from "../assets/projects/tienda.png";
-import WorkIm5 from "../assets/projects/workImg.jpeg";
+import WorkIm5 from "../assets/projects/autos.png";
 import WorkIm6 from "../assets/projects/realestate.jpg";
 
 export const data = [
