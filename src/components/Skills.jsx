@@ -6,11 +6,15 @@ import Node from "../assets/node.png";
 import GitHub from "../assets/github.png";
 import Tailwind from "../assets/tailwind.png";
 import Mongo from "../assets/mongo.png";
+import Next from "../assets/next2.png";
+import Vite from "../assets/vite.png";
+import SQL from "../assets/sql.png";
+import TS from "../assets/ts.png";
 /* import FireBase from "../assets/firebase.png"; */
 
 const Skills = () => {
   return (
-    <div name="skills" className="w-full h-[100vh] bg-[#0a192f]  text-gray-300">
+    <div name="skills" className="w-full h-[125vh] bg-[#0a192f]  text-gray-300">
       {/* Container */}
 
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full ">
@@ -40,13 +44,23 @@ const Skills = () => {
           </div>
 
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img className="w-20 mx-auto" src={TS} alt="HTML icon" />
+            <p className="my-4">TYPESCRIPT</p>
+          </div>
+
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={ReactImg} alt="HTML icon" />
             <p className="my-4">REACT</p>
           </div>
 
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={GitHub} alt="HTML icon" />
-            <p className="my-4">GITHUB</p>
+            <img className="w-20 mx-auto" src={Next} alt="HTML icon" />
+            <p className="my-4">NEXT JS</p>
+          </div>
+
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img className="w-20 mx-auto" src={Vite} alt="HTML icon" />
+            <p className="my-4">VITE</p>
           </div>
 
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
@@ -55,13 +69,23 @@ const Skills = () => {
           </div>
 
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img className="w-20 mx-auto" src={Tailwind} alt="HTML icon" />
+            <p className="my-4">TAILWIND</p>
+          </div>
+
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img className="w-20 mx-auto" src={SQL} alt="HTML icon" />
+            <p className="my-4">SQL</p>
+          </div>
+
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={Mongo} alt="HTML icon" />
             <p className="my-4">MONGO DB</p>
           </div>
 
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={Tailwind} alt="HTML icon" />
-            <p className="my-4">TAILWIND</p>
+            <img className="w-20 mx-auto" src={GitHub} alt="HTML icon" />
+            <p className="my-4">GITHUB</p>
           </div>
         </div>
       </div>
