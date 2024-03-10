@@ -1,4 +1,4 @@
-import WorkIm1 from "../assets/projects/landing-page.png";
+import WorkIm1 from "../assets/projects/landing-page.jpg";
 import WorkIm2 from "../assets/projects/pelis.png";
 import WorkIm3 from "../assets/projects/portafolio.png";
 import WorkIm4 from "../assets/projects/tienda.png";
