@@ -11,13 +11,13 @@ const Home = () => {
         </h1>
         <h2 className="text-4xl sm:text-7xl font-bold text-[#8892b0]">
           {" "}
-          Soy un Desarrollador Full Stack.
+          Desarrollador FrontEnd.
         </h2>
         <p className="text-[#8892b0] py-4 max-w-[700px]">
           {" "}
-          Soy un desarrollador full-stack con enfoque en diseño y programación.
-          Mi pasión es crear experiencias digitales excepcionales a través de
-          aplicaciones web altamente responsivas, combinando diseño atractivo
+          Soy un desarrollador frontend con enfoque en diseño. Me apasiona la
+          creación de experiencias digitales excepcionales, logrando
+          aplicaciones web altamente responsivas al combinar diseño atractivo
           con funcionalidad sólida.
         </p>
         <div>
