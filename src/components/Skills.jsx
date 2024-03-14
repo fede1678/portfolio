@@ -14,7 +14,10 @@ import TS from "../assets/ts.png";
 
 const Skills = () => {
   return (
-    <div name="skills" className="w-full h-[125vh] bg-[#0a192f]  text-gray-300">
+    <div
+      name="skills"
+      className="w-full md:h-[125vh] h-[150vh]  bg-[#0a192f]  text-gray-300"
+    >
       {/* Container */}
 
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full ">

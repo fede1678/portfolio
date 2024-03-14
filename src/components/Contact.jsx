@@ -33,7 +33,7 @@ const Contact = () => {
   return (
     <div
       name="contact"
-      className="w-full h-[800px] bg-[#0a192f] flex justify-center items-center p-4"
+      className="w-full md:h-[800px] h-[120vh] bg-[#0a192f] flex justify-center items-center p-4"
     >
       <form
         method="POST"
