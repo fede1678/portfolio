@@ -3,7 +3,7 @@ import WorkIm2 from "../assets/projects/pelis.png";
 import WorkIm3 from "../assets/projects/portafolio.png";
 import WorkIm4 from "../assets/projects/tienda.png";
 import WorkIm5 from "../assets/projects/autos.png";
-import WorkIm6 from "../assets/projects/realestate.jpg";
+import WorkIm6 from "../assets/projects/hero-lp.png";
 
 export const data = [
   {
@@ -45,7 +45,7 @@ export const data = [
     id: 6,
     name: "React JS Application",
     image: WorkIm6,
-    github: "https://github.com/fede1678/portfolio",
-    live: "https://jolly-malabi-de81f3.netlify.app/",
+    github: "https://github.com/fede1678/hero-bank",
+    live: "https://herobank-123.netlify.app/",
   },
 ];
