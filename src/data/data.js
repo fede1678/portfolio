@@ -4,28 +4,29 @@ import WorkIm3 from "../assets/projects/portafolio.png";
 import WorkIm4 from "../assets/projects/tienda.png";
 import WorkIm5 from "../assets/projects/autos.png";
 import WorkIm6 from "../assets/projects/hero-lp.png";
+import WorkIm7 from "../assets/projects/gym.png";
 
 export const data = [
   {
     id: 1,
     name: "React JS Application",
-    image: WorkIm1,
-    github: "https://github.com/fede1678/landigpage-webdesing",
-    live: "https://landing-page-243.netlify.app/",
+    image: WorkIm7,
+    github: "https://github.com/fede1678/onepage-gym1",
+    live: "https://app.netlify.com/sites/onepage-gym/overview",
   },
   {
     id: 2,
     name: "React JS Application",
-    image: WorkIm2,
-    github: "https://github.com/fede1678/movies-react",
-    live: "https://peliculas-384.netlify.app/",
+    image: WorkIm6,
+    github: "https://github.com/fede1678/hero-bank",
+    live: "https://herobank-123.netlify.app/",
   },
   {
     id: 3,
     name: "React JS Application",
-    image: WorkIm4,
-    github: "https://github.com/fede1678/dashboard-store",
-    live: "https://dashboard-store-1.netlify.app/",
+    image: WorkIm5,
+    github: "https://github.com/fede1678/slider_2024",
+    live: "https://slider-2024.netlify.app/",
   },
   {
     id: 4,
@@ -37,15 +38,22 @@ export const data = [
   {
     id: 5,
     name: "React JS Application",
-    image: WorkIm5,
-    github: "https://github.com/fede1678/slider_2024",
-    live: "https://slider-2024.netlify.app/",
+    image: WorkIm4,
+    github: "https://github.com/fede1678/dashboard-store",
+    live: "https://dashboard-store-1.netlify.app/",
   },
   {
     id: 6,
     name: "React JS Application",
-    image: WorkIm6,
-    github: "https://github.com/fede1678/hero-bank",
-    live: "https://herobank-123.netlify.app/",
+    image: WorkIm2,
+    github: "https://github.com/fede1678/movies-react",
+    live: "https://peliculas-384.netlify.app/",
+  },
+  {
+    id: 7,
+    name: "React JS Application",
+    image: WorkIm1,
+    github: "https://github.com/fede1678/landigpage-webdesing",
+    live: "https://onepage-gym-12.netlify.app/",
   },
 ];
