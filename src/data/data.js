@@ -12,7 +12,7 @@ export const data = [
     name: "React JS Application",
     image: WorkIm7,
     github: "https://github.com/fede1678/onepage-gym1",
-    live: "https://app.netlify.com/sites/onepage-gym/overview",
+    live: "https://onepage-gym-12.netlify.app/",
   },
   {
     id: 2,
@@ -54,6 +54,6 @@ export const data = [
     name: "React JS Application",
     image: WorkIm1,
     github: "https://github.com/fede1678/landigpage-webdesing",
-    live: "https://onepage-gym-12.netlify.app/",
+    live: "https://landing-page-243.netlify.app/",
   },
 ];
